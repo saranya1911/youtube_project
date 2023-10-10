@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Content
 Introduction
 Features
 Prerequisites
