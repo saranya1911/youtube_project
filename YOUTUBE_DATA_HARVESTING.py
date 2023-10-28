@@ -11,11 +11,11 @@ import time
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-API_KEY = 'AIzaSyCWlcdNAOrJv6yR8QJ1wij7onE-_c-0_xc'
+API_KEY = 'Your API Key'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://saranya:Kuttaiyur123!@cluster0.z8lhc9m.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://saranya:@cluster0.z8lhc9m.mongodb.net/?retryWrites=true&w=majority")
 db = client.MY_YOUTUBET_PROJECT
 collection = db.YOUTUBE_channel_data
 
